@@ -6,7 +6,7 @@
 
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.25';
 
-const BOT_TOKEN = Deno.env.get("TELEGRAM_BOT_TOKEN") || "";
+const BOT_TOKEN = Deno.env.get("8602355995:AAHq0DwWW2_pEOQYu3xBoRfvTVnN984W9_4") || "";
 const SPREADSHEET_ID = "1pG_adGrPAxwr-IYfzpZ-UyWT46dcAyzsvaOmmtHziF8";
 
 let GRUPO_ENTREGAS_ID: number | null = null;
